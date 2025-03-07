@@ -1,4 +1,4 @@
-resource "aws_security_group" "global-sg-2021" {
+resource "aws_security_group" "dec19sec" {
   name        = var.sgname
   description = "Allow SSH HTTP HTTPS"
 
